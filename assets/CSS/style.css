@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background: #fc3c23;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+nav i {
+  color: #fff;
+}
+
+.logo {
+  width: 30%;
+  height: 100%;
+  background: #ffffff;
+  /* padding: 1.5rem 0; */
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.logo .img-logo {
+  width: 101px;
+  height: auto;
+  /* padding-left: 3rem; */
+  margin: 0 auto;
+}
+
+.logo .img-logo img {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.rignt-nav {
+  width: 75%;
+  position: relative;
+}
+
+.rignt-nav .top-nav {
+  width: 100%;
+  padding: 0.6rem 6rem;
+  background: #fb9737;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rignt-nav .top-nav li i {
+  padding-right: 1rem;
+}
+
+.rignt-nav .top-nav li .icon {
+  padding-left: 1rem;
+}
+
+.rignt-nav .top-nav li .icon i {
+  padding-right: 0rem;
+}
+
+.rignt-nav .top-nav li .icon:hover i {
+  color: #c72828;
+}
+
+.rignt-nav .bottom-nav {
+  width: 100%;
+  padding: 0.6rem 6rem;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rignt-nav .bottom-nav li .nav-link {
+  display: flex;
+  width: 100%;
+}
+
+.rignt-nav .bottom-nav .bottom-nav-right i {
+  padding-right: 1.7rem;
+}
+
+.rignt-nav .bottom-nav li .nav-link li {
+  color: #fff;
+  padding: 0rem 1rem 0 0;
+}
+
+.rignt-nav .bottom-nav li .nav-link li:hover,
+.rignt-nav .bottom-nav li .nav-link li.active {
+  color: #c72828;
+  text-decoration: underline;
+}
+
+/*--------------------------------------------- main----------------------------------------- */
+.hero-section .owl-dots {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  z-index: 1;
+}
+.hero-section .owl-dots button {
+  background: #c9c9c9 !important;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-left: 0.5rem !important;
+}
+.hero-section .owl-dots button.active {
+  background: #c72828 !important;
+}
