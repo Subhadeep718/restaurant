@@ -154,3 +154,11 @@ nav i {
 .hero-section .owl-dots button.active {
   background: #c72828 !important;
 }
+
+.hero-section .owl-carousel .item{
+  background: url(../IMG/banner-food.jpg) center center/cover no-repeat;
+  width: 100%;
+  height: 80vh;
+  /* -webkit-mask-image: url();
+  mask-image: url(../IMG/LOGO.png) center center/cover no-repeat; */
+}
